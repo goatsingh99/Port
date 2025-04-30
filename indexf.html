@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="stylef.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Portfolio</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HOME SECTION ===== -->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <div class="home__img-container">
+                    <img src="5583A02E-AC95-4E6C-BBC4-3C009869F27B_1_105_c.jpeg" alt="" class="home__img">
+                </div>
+
+                <h1 class="home__title">Hi, I'm <span class="home__title-color">Saksham Mawari</span></h1>
+                <h2 class="home__subtitle">Frontend Developer</h2>
+
+                <div class="home__social">
+                    <a href="https://github.com/goatsingh99" class="home__social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saksham-mawari-6a4834307/" class="home__social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/Saksham_Mawari" class="home__social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container container">
+            <p class="about__text">
+                I'm a passionate frontend developer with 1 years of experience creating beautiful, 
+                responsive websites and web applications. I specialize in HTML, CSS, JavaScript, 
+                and modern frameworks like React. My goal is to build intuitive user experiences 
+                that are both functional and visually appealing.
+            </p>
+            <p class="about__text">
+                When I'm not coding, you can find me hiking in the mountains, reading science fiction, 
+                or experimenting with new cooking recipes. I believe in continuous learning and 
+                staying updated with the latest web technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills__container container">
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class="fab fa-html5 skills__icon"></i>
+                    <span class="skills__name">HTML5</span>
+                </div>
+                <div class="skills__bar skills__html"></div>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class="fab fa-css3-alt skills__icon"></i>
+                    <span class="skills__name">CSS3</span>
+                </div>
+                <div class="skills__bar skills__css"></div>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class="fab fa-js skills__icon"></i>
+                    <span class="skills__name">JavaScript</span>
+                </div>
+                <div class="skills__bar skills__js"></div>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class="fab fa-react skills__icon"></i>
+                    <span class="skills__name">React</span>
+                </div>
+                <div class="skills__bar skills__react"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+     <div class="project_block">
+    <h2 class="section-title">My Projects</h2>
+    <section class="projects_section" id="projects">
+
+        <div class="projects__container container grid">
+            <article class="project__card">
+                <img src="Myntra.png" alt="Project 1" class="project__img">
+            
+
+                <div class="project__content">
+                    <h3 class="project__title">E-commerce Website</h3>
+                    <p class="project__description">
+                        A fully responsive e-commerce platform built with React and Node.js.
+                    </p>
+                  
+                    <a href="https://goatsingh99.github.io/mini_project1/" class="project__link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project__card">
+                <a href=""><img src="game.png" alt="Project 3" class="project__img"></a>
+
+                <div class="project__content">
+                    <h3 class="project__title">Tic tac toe game</h3>
+                    <p class="project__description">
+                        Have some fun while playing the game
+                    </p>
+                    <a href="https://goatsingh99.github.io/mini_project2/" class="project__link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact_section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+            <form action="" class="contact__form">
+                <div class="contact__inputs">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" id="name" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" id="email" class="contact__input">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <label for="subject" class="contact__label">Subject</label>
+                    <input type="text" id="subject" class="contact__input">
+                </div>
+
+                <div class="contact__content">
+                    <label for="message" class="contact__label">Message</label>
+                    <textarea id="message" cols="30" rows="7" class="contact__input"></textarea>
+                </div>
+
+                <div class="buttonsend">
+                    <button type="submit" class="button button--flex">
+                        Send Message
+                        <i class="fas fa-paper-plane button__icon"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title">Saksham_Mawari</h2>
+
+            <div class="footer__social">
+                <a href="https://github.com/goatsingh99" class="footer__social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saksham-mawari-6a4834307/" class="footer__social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/Saksham_Mawari" class="footer__social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="footer__copy">© 2025 All rights reserved</p>
+
+            <a href="#" class="resume-button" download="Saksham.pdf">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </footer>
+
+    <!-- ===== MAIN JS ===== -->
+    <script>
+        // Show/hide mobile menu
+        const navMenu = document.getElementById('nav-menu');
+        const navToggle = document.getElementById('nav-toggle');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show-menu');
+        });
+
+        // Close mobile menu when clicking on a nav link
+        const navLinks = document.querySelectorAll('.nav__link');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu');
+            });
+        });
+
+        // Change background header on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (this.scrollY >= 50) {
+                header.style.boxShadow = '0 1px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Active link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        
+        function scrollActive() {
+            const scrollY = window.pageYOffset;
+            
+            sections.forEach(section => {
+                const sectionHeight = section.offsetHeight;
+                const sectionTop = section.offsetTop - 50;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    document.querySelector(`.nav__menu a[href*=${sectionId}]`).classList.add('active-link');
+                } else {
+                    document.querySelector(`.nav__menu a[href*=${sectionId}]`).classList.remove('active-link');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', scrollActive);
+
+        // Resume download (simulated)
+        const resumeButton = document.querySelector('.resume-button');
+        
+        resumeButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Resume download would start here in a real implementation.');
+            // In a real implementation, this would link to an actual PDF file
+        });
+    </script>
+</body>
+</html>
